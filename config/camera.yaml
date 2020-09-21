@@ -1,0 +1,15 @@
+width: 700             #图像宽度
+height: 500           #图像高度
+FrameRateEnable: true 
+FrameRate: 30         #帧率
+ExposureTime: 100000      #曝光时间
+GammaEnable: true
+Gamma: 0.7             #伽马因子
+Gain: 5                #亮度5
+SaturationEnable: true
+Saturation: 128         #饱和度
+offset_x: 50            #图像原点x方向偏置（在不同分辨率下需要对应修改offset，为了使物体在图像正中间）
+offset_y: 50            #图像原点y方向偏置
+video_path: /home/chunran/videos_RM/blue_1.avi
+#video_flag: false   #true:使用录像 false:使用海康
+
